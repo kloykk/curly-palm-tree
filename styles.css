@@ -5,6 +5,18 @@
 }
 
 
+
+#blink7{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-color: plum;
+  background: plum;
+  text-align: center;
+  animation:blur .8s ease-out infinite;
+  text-shadow:text-shadow= 0 0 50px plum, 0 0 50px plum;
+}
+
 @keyframes blur{
   from{
       text-shadow:0px 0px 10px #DDA0DD,
